@@ -32,7 +32,7 @@
           },
           'msvs_disabled_warnings': [
             4018,  # signed/unsigned mismatch
-            4309:  # 'static_cast': truncation of constant value (for windows only. came with upgrade of electron to 10.x.y)
+            4309,  # 'static_cast': truncation of constant value (for windows only. came with upgrade of electron to 10.x.y)
             4244,  # conversion from 'type1' to 'type2', possible loss of data
             4267,  # conversion from 'size_t' to 'type', possible loss of data
             4302,  # 'type cast': truncation from 'HKL' to 'UINT'
